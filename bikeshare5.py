@@ -20,7 +20,7 @@ def get_filters():
 	while True:
 		try:
 			city = input("Hello! Let´s explore some US bikeshare data!\nWould you like to see data for Chicago, New York, or Washington? ").lower()
-			while city != 'chicago' and city != 'new york' and city != 'washington':
+			while city not in ('chicago', 'new york', 'washington'):
 				city = input("That's not a valid option. You must choose among Chicago, New York, and Washington. Please try again. ").lower()
 			print("You have chosen to see the data for: {}.\n".format(city.title()))
 			filt = input('Would you like to filter the data by month, day, or not at all? Type "none" for no time filter. ').lower()	
