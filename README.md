@@ -12,4 +12,9 @@ The data has been provided by Motivate (https://www.motivateco.com/), and some d
 Three files have been used, one for each city, and all three of them contain the same core six columns: Start Time, End Time, Trip Duration, Start Station, End Station, and User Type.
 
 ## Credits
+
 Refactoring in the input code was possible due to an contribution from Stackoverflow (https://stackoverflow.com/questions/1075652/using-the-and-and-not-operator-in-python)
+
+## Dependencies
+
+The script uses Python 3, Numpy, Pandas, and Time installed using Anaconda, and a terminal application.
