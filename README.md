@@ -1,15 +1,15 @@
-### Date created
-Include the date you created this project and README file.
+### Date Project: 23/05/2019 -- Date README: 18/06/2019
 
-### Project Title
-Replace the Project Title
+# **Bikeshare Project**
 
-### Description
-Describe what your project is about and what it does
+This script provides descriptive statistics about data related to bike share systems for Chicago, New York City, and Washington, in an interactive way with the user.
 
-### Files used
-Include the files used
+This project has been made for the Programming for Data Science Nanodegree Program, from Udacity.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Datasets
 
+The data has been provided by Motivate (https://www.motivateco.com/), and some data wrangling has been performed by Udacity Team to condense the original files. 
+Three files have been used, one for each city, and all three of them contain the same core six columns: Start Time, End Time, Trip Duration, Start Station, End Station, and User Type.
+
+## Credits
+Refactoring in the input code was possible due to an contribution from Stackoverflow (https://stackoverflow.com/questions/1075652/using-the-and-and-not-operator-in-python)
