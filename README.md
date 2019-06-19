@@ -1,11 +1,15 @@
-### Date Project: 17/05/2019 -- Date README: 18/06/2019
+### Date created
+Include the date you created this project and README file.
 
-# **Bikeshare Project**
-This script provides descriptive statistics about data related to bike share systems for Chicago, New York City, and Washington, in an interactive way with the user.
+### Project Title
+Replace the Project Title
 
-### Datasets
-Three files have been used, one for each city, and all three of them contain the same core six columns: Start Time, End Time, Trip Duration, Start Station, End Station, and User Type.
+### Description
+Describe what your project is about and what it does
+
+### Files used
+Include the files used
 
 ### Credits
-Refactoring in the input code was possible due to an contribution from Stackoverflow (https://stackoverflow.com/questions/1075652/using-the-and-and-not-operator-in-python)
+It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
