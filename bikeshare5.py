@@ -100,13 +100,14 @@ def time_stats(df):
 		print('-'*40)
 
 def trip_duration_stats(df):
-	"""Displays statistics on the total and average trip duration."""
+	"""Displays statistics on the total, average and maximum trip duration."""
 	try:
 		print('\nCalculating trip duration...\n')
 		start_time = time.time()
 		
 		print('Total travel time: {} seconds'.format(np.sum(df['Trip Duration'])))
 		print('Mean travel time: {} seconds'.format(np.mean(df['Trip Duration'])))
+		print('Maximum travel time: {} seconds'.format(np.max(df['Trip Duration'])))
 		
 		print("\nThis took %s seconds." % (time.time() - start_time))
 		print('\n')
