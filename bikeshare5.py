@@ -29,13 +29,13 @@ def get_filters():
 			if filt == 'month':
 				day = 'all'
 				month = input('Which month? January, February, March, April, May, or June? ').title()
-				while month != 'January' and month != 'February' and month != 'March' and month != 'April' and month != 'May' and month != 'June':
+				while month not in ('January', 'February', 'March', 'April', 'May', 'June'):
 					month = input('It looks like you have not chosen the month correctly. Please type the month again. ').title()
 				print("You have chosen to filter the data by: {}. Let's see the statistics!\n".format(month))
 			elif filt == 'day':
 				month = 'all'
 				day = input('Which day? Mon, Tue, Wed, Thu, Fri, Sat, or Sun? ').title()
-				while day != 'Mon' and day != 'Tue' and day != 'Wed' and day != 'Thu' and day != 'Fri' and day != 'Sat' and day != 'Sun':
+				while day not in ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'):
 					day = input('It looks like you have not chosen the day correctly. Please type the day again using three letters. ').title()
 				print("You have chosen to filter the data by: {}. Let's see the statistics!\n".format(day))
 			else:
